@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <style>
+            textarea, button, input {
+                width: 100%;
+            }
+
+            textarea {
+                height: 100px;
+            }
+
+            * {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: white;
+                background-color: rgb(20,20,20);
+            }
+            
+            body {
+                background-color: rgb(30, 30, 30);
+            }
+
+            button{
+                transition: 0.2s ease-in-out font-size;
+            }
+            button:hover {
+                font-size: large;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 align=center>T1A06 In Out</h1>
+
+        <input id="inputstr" value="abc, cba, 4,,,,,,,,<b>xss test</b>">
+        <br>
+        <br>
+        <button onclick='{
+            var text = document.getElementById("inputstr").value.split(/,\s*/)
+
+            function writeTo(id, content){
+                document.getElementById(id).innerText = content;
+            }
+            
+            function normalize(content){
+                newcontent = []
+                content.forEach(element => {
+                    newcontent.push("\"" + element + "\"")
+                });
+                return newcontent;
+            }
+
+            function pyarray(content) {
+                return "values = [" + normalize(content).join(", ") + "]"
+            }
+            
+            function csarray(content) {
+                return "string[] values = new string[] {" + normalize(content).join(", ") + "}"
+            }
+
+            function cpparray(content) {
+                return "std::vector<std::string> values = {" + normalize(content).join(", ") + "}"
+            }   
+
+            function phparray(content) {
+                return "array(" + normalize(content).join(", ") + ")"
+            }   
+
+            writeTo("pyarray", pyarray(text))
+            writeTo("csarray", csarray(text))
+            writeTo("cparray", cpparray(text))
+            writeTo("pharray", phparray(text))
+        }'>
+        <p>Submit</p>
+        <textarea id="pyarray" readonly="true">Python</textarea>
+        <br>
+        <textarea id="csarray" readonly="true">C# String Array</textarea>
+        <br>
+        <textarea id="cparray" readonly="true">C++ String Array</textarea>
+        <br>
+        <textarea id="pharray" readonly="true">PHP Array</textarea>
+    </button>
+
+    </body>
+</html>
