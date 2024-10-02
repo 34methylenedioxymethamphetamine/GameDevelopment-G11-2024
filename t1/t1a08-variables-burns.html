@@ -1,0 +1,186 @@
+<html>
+    <head>
+        <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.css" rel="stylesheet" /> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.js"></script>
+        <style>
+            /**
+            * prism.js default theme for JavaScript, CSS and HTML
+            * Based on dabblet (http://dabblet.com)
+            * Modified by ME RAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH
+            * @author Lea Verou
+            */
+
+            code[class*="language-"],
+            pre[class*="language-"] {
+                color: black;
+                background: none;
+                text-shadow: 0 1px white;
+                font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+                font-size: 1em;
+                text-align: left;
+                white-space: pre;
+                word-spacing: normal;
+                word-break: normal;
+                word-wrap: normal;
+                line-height: 1.5;
+
+                -moz-tab-size: 1;
+                -o-tab-size: 1;
+                tab-size: 1;
+
+                -webkit-hyphens: none;
+                -moz-hyphens: none;
+                -ms-hyphens: none;
+                hyphens: none;
+
+                padding: 0 0;
+                margin: 0 0;
+                white-space: pre-line;
+            }
+
+            pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+            code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+                text-shadow: none;
+                background: #b3d4fc;
+            }
+
+            pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+            code[class*="language-"]::selection, code[class*="language-"] ::selection {
+                text-shadow: none;
+                background: #b3d4fc;
+            }
+
+            @media print {
+                code[class*="language-"],
+                pre[class*="language-"] {
+                    text-shadow: none;
+                }
+            }
+
+            /* Code blocks */
+            pre[class*="language-"] {
+                padding: 1em;
+                margin: .5em 0;
+                text-wrap: wrap;
+                /* overflow: hidden; */
+            }
+
+            :not(pre) > code[class*="language-"],
+            pre[class*="language-"] {
+                background: #f5f2f0;
+            }
+
+            /* Inline code */
+            :not(pre) > code[class*="language-"] {
+                padding: .1em;
+                border-radius: .3em;
+                white-space: normal;
+            }
+
+            .token.comment,
+            .token.prolog,
+            .token.doctype,
+            .token.cdata {
+                color: slategray;
+            }
+
+            .token.punctuation {
+                color: #999;
+            }
+
+            .token.namespace {
+                opacity: .7;
+            }
+
+            .token.property,
+            .token.tag,
+            .token.boolean,
+            .token.number,
+            .token.constant,
+            .token.symbol,
+            .token.deleted {
+                color: #905;
+            }
+
+            .token.selector,
+            .token.attr-name,
+            .token.string,
+            .token.char,
+            .token.builtin,
+            .token.inserted {
+                color: #690;
+            }
+
+            .token.operator,
+            .token.entity,
+            .token.url,
+            .language-css .token.string,
+            .style .token.string {
+                color: #9a6e3a;
+                /* This background color was intended by the author of this theme. */
+                background: hsla(0, 0%, 100%, .5);
+            }
+
+            .token.atrule,
+            .token.attr-value,
+            .token.keyword {
+                color: #07a;
+            }
+
+            .token.function,
+            .token.class-name {
+                color: #DD4A68;
+            }
+
+            .token.regex,
+            .token.important,
+            .token.variable {
+                color: #e90;
+            }
+
+            .token.important,
+            .token.bold {
+                font-weight: bold;
+            }
+            .token.italic {
+                font-style: italic;
+            }
+
+            .token.entity {
+                cursor: help;
+            }
+
+            html, body, pre, code {
+                width: 100%;
+                height: 100%;
+	            margin: 0 0;
+                white-space: pre-line;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            var str = "abc";
+            var int = 123;
+            var float = 0.00024;
+            var bool = false;
+            var func = function() {}
+            var char_but_still_a_string_in_js = ''
+            var idk_prolly_another_string = ``
+        </script>
+
+        <html>
+            <p align="center">ignore the whitepsace im not good enough at css to fix that</p>
+            <!-- <pre> -->
+            <pre><code class="language-javascript">
+                var str = "abc"; // stored in memory as a list of characters (8 bits) terminated by a null character (\0)
+                var int = 123; // stored usually as a 32 bit / 4 byte binary number.
+                var float = 0.00024; // stored (usually) as 31 bits. doesnt use conventional binary standards. the bigger the number, the largest the step. this allows a massive range and also a high density.
+                var bool = false; // stored as one bit, 0 or 1
+                var func = function() {} // (in native apps, aka not js) compiled into a subroutine within the binary 
+                var char_but_still_a_string_in_js = ''; // (in a lot of languages) the ' character denotes a character.  
+                var idk_prolly_another_string = ``; // i have actually no clue lol
+            </code></pre>
+        </html>
+    </body>
+</html>

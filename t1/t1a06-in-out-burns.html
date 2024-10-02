@@ -51,23 +51,43 @@
             function pyarray(content) {
                 return "values = [" + normalize(content).join(", ") + "]"
             }
-            
+
             function csarray(content) {
-                return "string[] values = new string[] {" + normalize(content).join(", ") + "}"
+                return "string[] values = new string[] {" + normalize(content).join(", ") + "};"
             }
 
             function cpparray(content) {
-                return "std::vector<std::string> values = {" + normalize(content).join(", ") + "}"
+                return "std::vector<std::string> values = {" + normalize(content).join(", ") + "};"
             }   
 
             function phparray(content) {
                 return "array(" + normalize(content).join(", ") + ")"
-            }   
+            }
+
+            function jsarray(content) {
+                return "const values = [" + normalize(content).join(", ") + "]"
+            }
+
+            function javarray(content) {
+                return "String[] values = {" + normalize(content).join(", ") + "};"
+            }
+
+            function rbarray(content) {
+                return "values = [" + normalize(content).join(", ") + "]"
+            }
+
+            function goarray(content) {
+                return "values := []string{" + normalize(content).join(", ") + "}"
+            }
 
             writeTo("pyarray", pyarray(text))
             writeTo("csarray", csarray(text))
             writeTo("cparray", cpparray(text))
             writeTo("pharray", phparray(text))
+            writeTo("jsarray", jsarray(text))
+            writeTo("javarray", javarray(text))
+            writeTo("rbarray", rbarray(text))
+            writeTo("goarray", goarray(text))
         }'>
         <p>Submit</p>
         <textarea id="pyarray" readonly="true">Python</textarea>
@@ -77,6 +97,14 @@
         <textarea id="cparray" readonly="true">C++ String Array</textarea>
         <br>
         <textarea id="pharray" readonly="true">PHP Array</textarea>
+        <br>
+        <textarea id="jsarray" readonly="true">JavaScript Array</textarea>
+        <br>
+        <textarea id="javarray" readonly="true">Java String Array</textarea>
+        <br>
+        <textarea id="rbarray" readonly="true">Ruby Array</textarea>
+        <br>
+        <textarea id="goarray" readonly="true">Go Slice</textarea>
     </button>
 
     </body>

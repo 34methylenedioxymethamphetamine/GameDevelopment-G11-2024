@@ -1,0 +1,730 @@
+<Request xmlns="http://schemas.microsoft.com/sharepoint/clientquery/2009" SchemaVersion="15.0.0.0" LibraryVersion="16.0.0.0" ApplicationName="Javascript Library">
+   <Actions>
+       <ObjectPath Id="2337" ObjectPathId="2336" />
+       <SetProperty Id="2338" ObjectPathId="2336" Name="TimeZoneId">
+           <Parameter Type="Number">13</Parameter>
+       </SetProperty>
+       <SetProperty Id="2339" ObjectPathId="2336" Name="QueryText">
+           <Parameter Type="String">*</Parameter>
+       </SetProperty>
+       <SetProperty Id="2340" ObjectPathId="2336" Name="QueryTemplate">
+           <Parameter Type="String">{searchboxquery}</Parameter>
+       </SetProperty>
+       <SetProperty Id="2341" ObjectPathId="2336" Name="Culture">
+           <Parameter Type="Number">1033</Parameter>
+       </SetProperty>
+       <SetProperty Id="2342" ObjectPathId="2336" Name="RowsPerPage">
+           <Parameter Type="Number">10</Parameter>
+       </SetProperty>
+       <SetProperty Id="2343" ObjectPathId="2336" Name="RowLimit">
+           <Parameter Type="Number">10</Parameter>
+       </SetProperty>
+       <SetProperty Id="2344" ObjectPathId="2336" Name="TotalRowsExactMinimum">
+           <Parameter Type="Number">11</Parameter>
+       </SetProperty>
+       <SetProperty Id="2345" ObjectPathId="2336" Name="SourceId">
+           <Parameter Type="Guid">{b09a7990-05ea-4af9-81ef-edfab16c4e31}</Parameter>
+       </SetProperty>
+       <SetProperty Id="2346" ObjectPathId="2336" Name="Refiners">
+           <Parameter Type="String"></Parameter>
+       </SetProperty>
+       <ObjectPath Id="2348" ObjectPathId="2347" />
+       <Method Name="Add" Id="*" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">AboutMe</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2349" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">AboutMe</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2350" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">AccountName</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2351" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">BaseOfficeLocation</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2352" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">Department</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2353" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">HitHighlightedProperties</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2354" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">Interests</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2355" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">JobTitle</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2356" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">LastModifiedTime</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2357" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">Memberships</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2358" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">PastProjects</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2359" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">Path</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2360" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">PictureURL</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2361" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">PreferredName</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2362" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">RenderTemplateId</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2363" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">Responsibilities</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2364" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">ResultTypeId</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2365" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">ResultTypeIdList</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2366" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">Schools</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2367" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">ServiceApplicationID</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2368" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">SipAddress</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2369" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">Skills</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2370" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">UserProfile_GUID</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2371" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">WorkEmail</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2372" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">WorkId</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2373" ObjectPathId="2347">
+           <Parameters>
+               <Parameter Type="String">YomiDisplayName</Parameter>
+           </Parameters>
+       </Method>
+       <ObjectPath Id="2375" ObjectPathId="2374" />
+       <Method Name="Add" Id="*" ObjectPathId="*">
+           <Parameters>
+               <Parameter Type="String">*</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2376" ObjectPathId="2374">
+           <Parameters>
+               <Parameter Type="String">AboutMe</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2377" ObjectPathId="2374">
+           <Parameters>
+               <Parameter Type="String">BaseOfficeLocation</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2378" ObjectPathId="2374">
+           <Parameters>
+               <Parameter Type="String">Department</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2379" ObjectPathId="2374">
+           <Parameters>
+               <Parameter Type="String">Interests</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2380" ObjectPathId="2374">
+           <Parameters>
+               <Parameter Type="String">JobTitle</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2381" ObjectPathId="2374">
+           <Parameters>
+               <Parameter Type="String">Memberships</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2382" ObjectPathId="2374">
+           <Parameters>
+               <Parameter Type="String">PastProjects</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2383" ObjectPathId="2374">
+           <Parameters>
+               <Parameter Type="String">PreferredName</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2384" ObjectPathId="2374">
+           <Parameters>
+               <Parameter Type="String">Responsibilities</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2385" ObjectPathId="2374">
+           <Parameters>
+               <Parameter Type="String">Schools</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2386" ObjectPathId="2374">
+           <Parameters>
+               <Parameter Type="String">SipAddress</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2387" ObjectPathId="2374">
+           <Parameters>
+               <Parameter Type="String">Skills</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2388" ObjectPathId="2374">
+           <Parameters>
+               <Parameter Type="String">WorkEmail</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="2389" ObjectPathId="2374">
+           <Parameters>
+               <Parameter Type="String">YomiDisplayName</Parameter>
+           </Parameters>
+       </Method>
+       <SetProperty Id="2390" ObjectPathId="2336" Name="RankingModelId">
+           <Parameter Type="String">D9BFB1A1-9036-4627-83B2-BBD9983AC8A1</Parameter>
+       </SetProperty>
+       <SetProperty Id="2391" ObjectPathId="2336" Name="EnablePhonetic">
+           <Parameter Type="Boolean">true</Parameter>
+       </SetProperty>
+       <SetProperty Id="2392" ObjectPathId="2336" Name="EnableNicknames">
+           <Parameter Type="Boolean">true</Parameter>
+       </SetProperty>
+       <SetProperty Id="2393" ObjectPathId="2336" Name="TrimDuplicates">
+           <Parameter Type="Boolean">false</Parameter>
+       </SetProperty>
+       <ObjectPath Id="2395" ObjectPathId="2394" />
+       <Method Name="SetQueryPropertyValue" Id="2396" ObjectPathId="2394">
+           <Parameters>
+               <Parameter Type="String">CrossGeoQuery</Parameter>
+               <Parameter TypeId="{b25ba502-71d7-4ae4-a701-4ca2fb1223be}">
+                   <Property Name="BoolVal" Type="Boolean">false</Property>
+                   <Property Name="IntVal" Type="Number">0</Property>
+                   <Property Name="QueryPropertyValueTypeIndex" Type="Number">1</Property>
+                   <Property Name="StrArray" Type="Null" />
+                   <Property Name="StrVal" Type="String">false</Property>
+               </Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="SetQueryPropertyValue" Id="2397" ObjectPathId="2394">
+           <Parameters>
+               <Parameter Type="String">ListId</Parameter>
+               <Parameter TypeId="{b25ba502-71d7-4ae4-a701-4ca2fb1223be}">
+                   <Property Name="BoolVal" Type="Boolean">false</Property>
+                   <Property Name="IntVal" Type="Number">0</Property>
+                   <Property Name="QueryPropertyValueTypeIndex" Type="Number">1</Property>
+                   <Property Name="StrArray" Type="Null" />
+                   <Property Name="StrVal" Type="String">c270fddb-ae6b-4ba3-96d4-97fee6adae11</Property>
+               </Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="SetQueryPropertyValue" Id="2398" ObjectPathId="2394">
+           <Parameters>
+               <Parameter Type="String">ListItemId</Parameter>
+               <Parameter TypeId="{b25ba502-71d7-4ae4-a701-4ca2fb1223be}">
+                   <Property Name="BoolVal" Type="Boolean">false</Property>
+                   <Property Name="IntVal" Type="Number">319</Property>
+                   <Property Name="QueryPropertyValueTypeIndex" Type="Number">2</Property>
+                   <Property Name="StrArray" Type="Null" />
+                   <Property Name="StrVal" Type="Null" />
+               </Parameter>
+           </Parameters>
+       </Method>
+       <ObjectPath Id="2400" ObjectPathId="2399" />
+       <SetProperty Id="2401" ObjectPathId="2336" Name="PersonalizationData">
+           <Parameter ObjectPathId="2399" />
+       </SetProperty>
+       <SetProperty Id="2402" ObjectPathId="2336" Name="ResultsUrl">
+           <Parameter Type="String">https://portal.mpsd.ca/my/_catalogs/masterpage/PeopleSearchResults.aspx#/=#k=*%23l=1033</Parameter>
+       </SetProperty>
+       <SetProperty Id="2403" ObjectPathId="2336" Name="ClientType">
+           <Parameter Type="String">PeopleSearch</Parameter>
+       </SetProperty>
+       <Method Name="SetQueryPropertyValue" Id="2404" ObjectPathId="2394">
+           <Parameters>
+               <Parameter Type="String">QuerySession</Parameter>
+               <Parameter TypeId="{b25ba502-71d7-4ae4-a701-4ca2fb1223be}">
+                   <Property Name="BoolVal" Type="Boolean">false</Property>
+                   <Property Name="IntVal" Type="Number">0</Property>
+                   <Property Name="QueryPropertyValueTypeIndex" Type="Number">1</Property>
+                   <Property Name="StrArray" Type="Null" />
+                   <Property Name="StrVal" Type="String">70c7c6b2-42ee-490c-bc86-43c81a167f76</Property>
+               </Parameter>
+           </Parameters>
+       </Method>
+       <SetProperty Id="2405" ObjectPathId="2336" Name="ProcessPersonalFavorites">
+           <Parameter Type="Boolean">false</Parameter>
+       </SetProperty>
+       <SetProperty Id="2406" ObjectPathId="2336" Name="EnableOrderingHitHighlightedProperty">
+           <Parameter Type="Boolean">true</Parameter>
+       </SetProperty>
+       <SetProperty Id="2407" ObjectPathId="2336" Name="HitHighlightedMultivaluePropertyLimit">
+           <Parameter Type="Number">5</Parameter>
+       </SetProperty>
+       <SetProperty Id="2408" ObjectPathId="2336" Name="SafeQueryPropertiesTemplateUrl">
+           <Parameter Type="String">querygroup://webroot/_catalogs/masterpage/PeopleSearchResults.aspx?groupname=Default</Parameter>
+       </SetProperty>
+       <SetProperty Id="2409" ObjectPathId="2336" Name="IgnoreSafeQueryPropertiesTemplateUrl">
+           <Parameter Type="Boolean">false</Parameter>
+       </SetProperty>
+       <Method Name="SetQueryPropertyValue" Id="2410" ObjectPathId="2394">
+           <Parameters>
+               <Parameter Type="String">QueryDateTimeCulture</Parameter>
+               <Parameter TypeId="{b25ba502-71d7-4ae4-a701-4ca2fb1223be}">
+                   <Property Name="BoolVal" Type="Boolean">false</Property>
+                   <Property Name="IntVal" Type="Number">1033</Property>
+                   <Property Name="QueryPropertyValueTypeIndex" Type="Number">2</Property>
+                   <Property Name="StrArray" Type="Null" />
+                   <Property Name="StrVal" Type="Null" />
+               </Parameter>
+           </Parameters>
+       </Method>
+       <ObjectPath Id="2412" ObjectPathId="2411" />
+       <ExceptionHandlingScope Id="2413">
+           <TryScope Id="2415">
+               <Method Name="ExecuteQueries" Id="2417" ObjectPathId="2411">
+                   <Parameters>
+                       <Parameter Type="Array">
+                           <Object Type="String">c0f17963-0b0e-40d0-8d28-e04716136f58Default</Object>
+                       </Parameter>
+                       <Parameter Type="Array">
+                           <Object ObjectPathId="2336" />
+                       </Parameter>
+                       <Parameter Type="Boolean">true</Parameter>
+                   </Parameters>
+               </Method>
+           </TryScope>
+           <CatchScope Id="2419" />
+       </ExceptionHandlingScope>
+   </Actions>
+   <ObjectPaths>
+       <Constructor Id="2336" TypeId="{80173281-fffd-47b6-9a49-312e06ff8428}" />
+       <Property Id="2347" ParentId="2336" Name="SelectProperties" />
+       <Property Id="2374" ParentId="2336" Name="HitHighlightedProperties" />
+       <Property Id="2394" ParentId="2336" Name="Properties" />
+       <Constructor Id="2399" TypeId="{28d79f49-820a-4d51-bb2a-3309b3f4c54d}">
+           <Parameters>
+               <Parameter Type="String">f9b9f7f1-7a2e-4ab5-842a-aef201fe123b</Parameter>
+           </Parameters>
+       </Constructor>
+       <Constructor Id="2411" TypeId="{8d2ac302-db2f-46fe-9015-872b35f15098}" />
+   </ObjectPaths>
+</Request>
+<!-- <Request xmlns="http://schemas.microsoft.com/sharepoint/clientquery/2009" SchemaVersion="15.0.0.0" LibraryVersion="16.0.0.0" ApplicationName="Javascript Library">
+   <Actions>
+       <ObjectPath Id="1099" ObjectPathId="1098" />
+       <SetProperty Id="1100" ObjectPathId="1098" Name="TimeZoneId">
+           <Parameter Type="Number">13</Parameter>
+       </SetProperty>
+       <SetProperty Id="1101" ObjectPathId="1098" Name="QueryText">
+           <Parameter Type="String">*</Parameter>
+       </SetProperty>
+       <SetProperty Id="1102" ObjectPathId="1098" Name="QueryTemplate">
+           <Parameter Type="String">{searchboxquery}</Parameter>
+       </SetProperty>
+       <SetProperty Id="1103" ObjectPathId="1098" Name="Culture">
+           <Parameter Type="Number">1033</Parameter>
+       </SetProperty>
+       <SetProperty Id="1104" ObjectPathId="1098" Name="RowsPerPage">
+           <Parameter Type="Number">10</Parameter>
+       </SetProperty>
+       <SetProperty Id="1105" ObjectPathId="1098" Name="RowLimit">
+           <Parameter Type="Number">10</Parameter>
+       </SetProperty>
+       <SetProperty Id="1106" ObjectPathId="1098" Name="TotalRowsExactMinimum">
+           <Parameter Type="Number">11</Parameter>
+       </SetProperty>
+       <SetProperty Id="1107" ObjectPathId="1098" Name="SourceId">
+           <Parameter Type="Guid">{b09a7990-05ea-4af9-81ef-edfab16c4e31}</Parameter>
+       </SetProperty>
+       <!--<SetProperty Id="1108" ObjectPathId="1098" Name="Refiners">
+           <Parameter Type="String">Department(filter=7/0/*),JobTitle(filter=7/0/*),PeopleKeywords(filter=7/0/*),BaseOfficeLocation(filter=7/0/*)</Parameter>
+       </SetProperty>-->
+       <SetProperty Id="1108" ObjectPathId="1098" Name="Refiners">
+           <Parameter Type="String"></Parameter>
+       </SetProperty>
+       <ObjectPath Id="1110" ObjectPathId="1109" />
+       <Method Name="Add" Id="1111" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">*</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1111" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">AboutMe</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1112" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">AccountName</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1113" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">BaseOfficeLocation</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1114" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">Department</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1115" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">HitHighlightedProperties</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1116" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">Interests</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1117" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">JobTitle</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1118" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">LastModifiedTime</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1119" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">Memberships</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1120" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">PastProjects</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1121" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">Path</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1122" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">PictureURL</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1123" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">PreferredName</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1124" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">RenderTemplateId</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1125" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">Responsibilities</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1126" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">ResultTypeId</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1127" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">ResultTypeIdList</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1128" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">Schools</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1129" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">ServiceApplicationID</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1130" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">SipAddress</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1131" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">Skills</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1132" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">UserProfile_GUID</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1133" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">WorkEmail</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1134" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">WorkId</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1135" ObjectPathId="1109">
+           <Parameters>
+               <Parameter Type="String">YomiDisplayName</Parameter>
+           </Parameters>
+       </Method>
+       <ObjectPath Id="1137" ObjectPathId="1136" />
+       <Method Name="Add" Id="1138" ObjectPathId="1136">
+           <Parameters>
+               <Parameter Type="String">AboutMe</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1139" ObjectPathId="1136">
+           <Parameters>
+               <Parameter Type="String">BaseOfficeLocation</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1140" ObjectPathId="1136">
+           <Parameters>
+               <Parameter Type="String">Department</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1141" ObjectPathId="1136">
+           <Parameters>
+               <Parameter Type="String">Interests</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1142" ObjectPathId="1136">
+           <Parameters>
+               <Parameter Type="String">JobTitle</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1143" ObjectPathId="1136">
+           <Parameters>
+               <Parameter Type="String">Memberships</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1144" ObjectPathId="1136">
+           <Parameters>
+               <Parameter Type="String">PastProjects</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1145" ObjectPathId="1136">
+           <Parameters>
+               <Parameter Type="String">PreferredName</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1146" ObjectPathId="1136">
+           <Parameters>
+               <Parameter Type="String">Responsibilities</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1147" ObjectPathId="1136">
+           <Parameters>
+               <Parameter Type="String">Schools</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1148" ObjectPathId="1136">
+           <Parameters>
+               <Parameter Type="String">SipAddress</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1149" ObjectPathId="1136">
+           <Parameters>
+               <Parameter Type="String">Skills</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1150" ObjectPathId="1136">
+           <Parameters>
+               <Parameter Type="String">WorkEmail</Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="Add" Id="1151" ObjectPathId="1136">
+           <Parameters>
+               <Parameter Type="String">YomiDisplayName</Parameter>
+           </Parameters>
+       </Method>
+       <SetProperty Id="1152" ObjectPathId="1098" Name="RankingModelId">
+           <Parameter Type="String">D9BFB1A1-9036-4627-83B2-BBD9983AC8A1</Parameter>
+       </SetProperty>
+       <SetProperty Id="1153" ObjectPathId="1098" Name="EnablePhonetic">
+           <Parameter Type="Boolean">true</Parameter>
+       </SetProperty>
+       <SetProperty Id="1154" ObjectPathId="1098" Name="EnableNicknames">
+           <Parameter Type="Boolean">true</Parameter>
+       </SetProperty>
+       <SetProperty Id="1155" ObjectPathId="1098" Name="TrimDuplicates">
+           <Parameter Type="Boolean">false</Parameter>
+       </SetProperty>
+       <ObjectPath Id="1157" ObjectPathId="1156" />
+       <Method Name="SetQueryPropertyValue" Id="1158" ObjectPathId="1156">
+           <Parameters>
+               <Parameter Type="String">CrossGeoQuery</Parameter>
+               <Parameter TypeId="{b25ba502-71d7-4ae4-a701-4ca2fb1223be}">
+                   <Property Name="BoolVal" Type="Boolean">false</Property>
+                   <Property Name="IntVal" Type="Number">0</Property>
+                   <Property Name="QueryPropertyValueTypeIndex" Type="Number">1</Property>
+                   <Property Name="StrArray" Type="Null" />
+                   <Property Name="StrVal" Type="String">false</Property>
+               </Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="SetQueryPropertyValue" Id="1159" ObjectPathId="1156">
+           <Parameters>
+               <Parameter Type="String">ListId</Parameter>
+               <Parameter TypeId="{b25ba502-71d7-4ae4-a701-4ca2fb1223be}">
+                   <Property Name="BoolVal" Type="Boolean">false</Property>
+                   <Property Name="IntVal" Type="Number">0</Property>
+                   <Property Name="QueryPropertyValueTypeIndex" Type="Number">1</Property>
+                   <Property Name="StrArray" Type="Null" />
+                   <Property Name="StrVal" Type="String">c270fddb-ae6b-4ba3-96d4-97fee6adae11</Property>
+               </Parameter>
+           </Parameters>
+       </Method>
+       <Method Name="SetQueryPropertyValue" Id="1160" ObjectPathId="1156">
+           <Parameters>
+               <Parameter Type="String">ListItemId</Parameter>
+               <Parameter TypeId="{b25ba502-71d7-4ae4-a701-4ca2fb1223be}">
+                   <Property Name="BoolVal" Type="Boolean">false</Property>
+                   <Property Name="IntVal" Type="Number">319</Property>
+                   <Property Name="QueryPropertyValueTypeIndex" Type="Number">2</Property>
+                   <Property Name="StrArray" Type="Null" />
+                   <Property Name="StrVal" Type="Null" />
+               </Parameter>
+           </Parameters>
+       </Method>
+       <ObjectPath Id="1162" ObjectPathId="1161" />
+       <SetProperty Id="1163" ObjectPathId="1098" Name="PersonalizationData">
+           <Parameter ObjectPathId="1161" />
+       </SetProperty>
+       <SetProperty Id="1164" ObjectPathId="1098" Name="ResultsUrl">
+           <Parameter Type="String">https://portal.mpsd.ca/my/_catalogs/masterpage/PeopleSearchResults.aspx#/=#k=*%23l=1033</Parameter>
+       </SetProperty>
+       <SetProperty Id="1165" ObjectPathId="1098" Name="ClientType">
+           <Parameter Type="String">PeopleSearch</Parameter>
+       </SetProperty>
+       <Method Name="SetQueryPropertyValue" Id="1166" ObjectPathId="1156">
+           <Parameters>
+               <Parameter Type="String">QuerySession</Parameter>
+               <Parameter TypeId="{b25ba502-71d7-4ae4-a701-4ca2fb1223be}">
+                   <Property Name="BoolVal" Type="Boolean">false</Property>
+                   <Property Name="IntVal" Type="Number">0</Property>
+                   <Property Name="QueryPropertyValueTypeIndex" Type="Number">1</Property>
+                   <Property Name="StrArray" Type="Null" />
+                   <Property Name="StrVal" Type="String">70c7c6b2-42ee-490c-bc86-43c81a167f76</Property>
+               </Parameter>
+           </Parameters>
+       </Method>
+       <SetProperty Id="1167" ObjectPathId="1098" Name="ProcessPersonalFavorites">
+           <Parameter Type="Boolean">false</Parameter>
+       </SetProperty>
+       <SetProperty Id="1168" ObjectPathId="1098" Name="EnableOrderingHitHighlightedProperty">
+           <Parameter Type="Boolean">true</Parameter>
+       </SetProperty>
+       <SetProperty Id="1169" ObjectPathId="1098" Name="HitHighlightedMultivaluePropertyLimit">
+           <Parameter Type="Number">5</Parameter>
+       </SetProperty>
+       <SetProperty Id="1170" ObjectPathId="1098" Name="SafeQueryPropertiesTemplateUrl">
+           <Parameter Type="String">querygroup://webroot/_catalogs/masterpage/PeopleSearchResults.aspx?groupname=Default</Parameter>
+       </SetProperty>
+       <SetProperty Id="1171" ObjectPathId="1098" Name="IgnoreSafeQueryPropertiesTemplateUrl">
+           <Parameter Type="Boolean">false</Parameter>
+       </SetProperty>
+       <Method Name="SetQueryPropertyValue" Id="1172" ObjectPathId="1156">
+           <Parameters>
+               <Parameter Type="String">QueryDateTimeCulture</Parameter>
+               <Parameter TypeId="{b25ba502-71d7-4ae4-a701-4ca2fb1223be}">
+                   <Property Name="BoolVal" Type="Boolean">false</Property>
+                   <Property Name="IntVal" Type="Number">1033</Property>
+                   <Property Name="QueryPropertyValueTypeIndex" Type="Number">2</Property>
+                   <Property Name="StrArray" Type="Null" />
+                   <Property Name="StrVal" Type="Null" />
+               </Parameter>
+           </Parameters>
+       </Method>
+       <ObjectPath Id="1174" ObjectPathId="1173" />
+       <ExceptionHandlingScope Id="1175">
+           <TryScope Id="1177">
+               <Method Name="ExecuteQueries" Id="1179" ObjectPathId="1173">
+                   <Parameters>
+                       <Parameter Type="Array">
+                           <Object Type="String">13f25a50-699c-4b77-ad7e-ada4df772a76Default</Object>
+                       </Parameter>
+                       <Parameter Type="Array">
+                           <Object ObjectPathId="1098" />
+                       </Parameter>
+                       <Parameter Type="Boolean">true</Parameter>
+                   </Parameters>
+               </Method>
+           </TryScope>
+           <CatchScope Id="1181" />
+       </ExceptionHandlingScope>
+   </Actions>
+   <ObjectPaths>
+       <Constructor Id="1098" TypeId="{80173281-fffd-47b6-9a49-312e06ff8428}" />
+       <Property Id="1109" ParentId="1098" Name="SelectProperties" />
+       <Property Id="1136" ParentId="1098" Name="HitHighlightedProperties" />
+       <Property Id="1156" ParentId="1098" Name="Properties" />
+       <Constructor Id="1161" TypeId="{28d79f49-820a-4d51-bb2a-3309b3f4c54d}">
+           <Parameters>
+               <Parameter Type="String">f9b9f7f1-7a2e-4ab5-842a-aef201fe123b</Parameter>
+           </Parameters>
+       </Constructor>
+       <Constructor Id="1173" TypeId="{8d2ac302-db2f-46fe-9015-872b35f15098}" />
+   </ObjectPaths>
+</Request> -->

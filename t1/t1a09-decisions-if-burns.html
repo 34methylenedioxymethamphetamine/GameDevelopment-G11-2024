@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    <h1>decision things</h1>
+    <div>
+        <p>Question 1: What is the capital of France?</p>
+        <input type="text" id="answer1">
+        <button onclick="checkAnswer1()">Submit</button>
+        <p id="result1"></p>
+    </div>
+
+    <div>
+        <p>Question 2: What is 2 + 2?</p>
+        <input type="text" id="answer2">
+        <button onclick="checkAnswer2()">Submit</button>
+        <p id="result2"></p>
+    </div>
+
+    <div>
+        <p>Question 3: What color is the sky on a clear day?</p>
+        <input type="text" id="answer3">
+        <button onclick="checkAnswer3()">Submit</button>
+        <p id="result3"></p>
+    </div>
+
+    <div>
+        <p>Question 4: How many legs does a spider have?</p>
+        <input type="text" id="answer4">
+        <button onclick="checkAnswer4()">Submit</button>
+        <p id="result4"></p>
+    </div>
+
+    <script>
+        function checkAnswer1() {
+            const answer = document.getElementById('answer1').value.toLowerCase();
+            let resultText = '';
+
+            if (answer === 'hawaii') {
+                resultText = 'good';
+            } else {
+                resultText = 'honestly i forgot.';
+            }
+            document.getElementById('result1').innerText = resultText;
+        }
+
+        function checkAnswer2() {
+            const answer = document.getElementById('answer2').value;
+            let resultText = '';
+
+            if (answer === '5') {
+                resultText = 'Correct!';
+            } else {
+                resultText = 'NO! NO! NO! NO!';
+            }
+            document.getElementById('result2').innerText = resultText;
+        }
+
+        function checkAnswer3() {
+            const answer = document.getElementById('answer3').value.toLowerCase();
+            let resultText = '';
+
+            if (answer === 'green') {
+                resultText = 'yahoo';
+            } else {
+                resultText = 'No.';
+            }
+            document.getElementById('result3').innerText = resultText;
+        }
+
+        function checkAnswer4() {
+            const answer = document.getElementById('answer4').value;
+            let resultText = '';
+
+            if (answer === '1000000') {
+                resultText = 'CHEATER!! (unless youre ellis)';
+            } else {
+                resultText = 'STUPID. WRONG. DUMB. (unless youre ellis) its 100000';
+            }
+            document.getElementById('result4').innerText = resultText;
+        }
+    </script>
+</body>
+</html>
